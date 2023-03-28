@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;500&family=Roboto:wght@100;400;700&display=swap');
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: rgb(211, 218, 216);
+    font-family: 'Roboto', sans-serif;
+    /*height: 100%;*/
+}
+
+.nav-link {
+    color: black;
+    
+}
+
+.title-main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(107, 88, 88);
+    letter-spacing: .5px;
+    font-size: clamp(3rem, 3vw, 5rem);
+}
+
+.navbar {
+    background-color: grey;
+    font-size: 1.3rem;
+    padding: 0.7em;
+    display: flex;
+    align-items: center;
+}
+
+#logonav {
+    border: 5px;
+    border-color: rgb(15, 14, 12);
+    border-radius: 10px;
+
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2em;
+
+}
+
+
+.list-item {
+    list-style: none;
+    color: black;
+
+}
+
+
+.list-link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.index-img {
+    background-color: rgb(111, 118, 131);
+    width: 100%;
+
+
+}
+
+.label1 {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: larger;   
+}
+
+.input-text {
+    max-width: 56rem;
+    background-color:rgba(239, 242, 245, 0.763) ;
+    border-radius: 5px;
+}
+
+.input-little{
+    background-color:rgba(239, 242, 245, 0.763) ;
+    border-radius: 5px;
+}
+
+.btn-box{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-block: 1em;
+}
+
+
+footer {
+    background-color: rgb(49, 46, 46);
+    color: aliceblue;
+    padding: .5em;
+    /*display: flex;*/
+    text-align: center;
+}
+
+
+.input-box {
+    display: flex;
+    
+}
+
+.label1 {
+
+    min-width: 15rem;
+}
+
+/* celular */
+@media screen and (max-width: 767px) {
+    body {
+        width: 90%;
+        min-width: 280px;
+    }
+
+    .list {
+        width: 90%;
+        flex-direction: column;
+        gap: 0.3em;
+    }
+
+    /*.navbar {
+        padding: 0%;
+        width: 90%;
+    }*/
+
+    .formulario {
+        width: 90%;
+        min-width: 280px;
+    }
+
+    .input-box {
+        flex-direction: column;
+    }
+    /*footer{
+        width: 90%; 
+    }*/
+   .input-text{
+        width: 40%;
+    }
+    
+    .input-little{
+        width: 40%;
+    }
+}
+ 
+/*tablet*/
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    body {
+        width: 90%;
+    }
+
+   /* .navbar {
+        width: 90%;
+    }*/
+
+    .formulario {
+        width: 90%;
+    }
+    /*footer{
+        width: 90%; 
+    }*/
+    .input-text{
+        width: 25%;
+    }
+    /*
+    .input-box{
+        width: 25%;
+    }*/
+}
+
+
+/*.list {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.3em;
+       }
+       .navbar {padding: 0%;}*/
+
+/* Pantallas grandes */
+@media screen and (min-width: 1024px) {
+    body {
+        width: 90%;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+
+    /*.navbar {
+        width: 90%;
+    }*/
+
+    /*footer{
+        width: 90%; 
+    }*/
+  
+    .input-text{
+        width: 25%;
+    }
+    /*
+    .input-box{
+        width: 25%;
+    }*/
+}
