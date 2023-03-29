@@ -1,0 +1,41 @@
+https://github.com/Mirimin90/Trabajo-N1.git
+
+Directorio: C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3
+
+Creaciónde carpeta de proyecto
+
+Directorio: C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3  md EjerciciofullstackJava 
+
+
+Creación de repositorio
+C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3\EjerciciofullstackJava> git init
+
+Estado de repositorio
+
+C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3\EjerciciofullstackJava> git status
+
+
+crear archivo con texto
+
+PS C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3\EjerciciofullstackJava> new-item contenidos.txt
+
+Introducir texto al archivo
+
+PS C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3\EjerciciofullstackJava> Add-content contenidos.txt "Módulo 1 Programación en FullStakJava"
+PS C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3\EjerciciofullstackJava> Add-content contenidos.txt "Módulo 2: Lenguaje de Consultas a una Base de Datos"
+PS C:\Users\DELL\Documents\Full Stak Java\Proyectos\Proyectos grupo 3 old\Proyectos grupo 3\EjerciciofullstackJava> Add-content contenidos.txt "Módulo 3: Fundamentos de Desarrollo Web"
+
+directorio ---> git init
+git status (para revisar que haya tomado bien)
+git pull (para que tu repositorio local este al dia con el online)
+git checkout _______ (en el espacio va el nombre de la linea en la cual vas a trabajar)
+git add
+NOTA: 
+1- si es un solo archivo añaden un punto, ejemplo: git add.
+2- aqui van los nombres de los archivos modificados con su respectiva extension ejemplo: contacto.html. 
+git status (comprobar que los archivos hayan sido bien añadidos)
+git commit -m "aqui va tu mensaje de actualización" (las comillas van siosi)
+git merge _____ (en el espacio va el nombre de la linea a la cual quieres fusionarte)
+git push (para actualizar el repositorio online).
+
+Falta: añadir terminos para comprobar otras cosas, como revisar los logs y esas tonteras xD
