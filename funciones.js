@@ -1,27 +1,37 @@
 
 
-var var1 = document.getElementById("nombre");
+function validar() {
 
-var var2 = document.getElementById('correo');
+var var1 =document.getElementById("nombre").value;
 
-var var3 = document.getElementById('floatingTextarea');
+var var2 =document.getElementById("Correo").value;
 
+var var3 =document.getElementById("floatingTextarea").value;
 
-
-function validarDatos() {
+var respuesta = ""
 
     
-    if (var1.value.trim() .length === 0) {
-        alert("El nombre está vacío");
+    
+        
+        if (var1.trim().length === 0) {
+           
+            respuesta = "Nombre ,"  
+        }
+        
+        if (var2.trim().length === 0) {
+            
+            respuesta = respuesta + "Email,";
+        }
+        if (var3.trim().length === 0) {
+           
+            respuesta = respuesta + "Mensaje";
+        }
+
+        if (respuesta.trim().length > 0) {
+          
+            alert("Debe llenar campos :" +  respuesta)
+        }
+        
+        
     }
-    
-    if (var2.value.trim() .length === 0) {
-        alert("El email está vacío");
-    
-    }
-    if (var3.value.trim().length === 0) {
-        alert("El mensaje está vacío");
-    }
-    
-    
-}
+
