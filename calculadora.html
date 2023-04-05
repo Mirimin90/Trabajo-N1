@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Saca la cuenta - Te Lo Vendo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./css/styles.css">
+
+
+</head>
+
+<body class="container bg-secondary bg-opacity-25">
+
+	<header class="container">
+		<h1 class="title-main">TE LO VENDO</h1>
+
+		<nav class="navbar bg-secondary bg-opacity-10 p-2 border border-black border-opacity-50 rounded-end">
+			<img class="rounded float-start" id="logonav" src="./imagenes/58efd105dde440b797ec892fc7bfbcd4.png"
+				alt="Logotlv">
+
+			<ul class="nav nav-underline">
+				<li class="nav-item ">
+					<a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+						aria-current="page" href="./index.html">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+						href="./calculadora.html">Saca la cuenta!</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+						href="./contacto.html">Contacto</a>
+
+				<li class="nav-item">
+					<a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+						href="./estadisticas.html"> Estadísticas</a>
+
+			</ul>
+	</header>
+
+	</div>
+	</nav>
+	<div class=" vh100 container d-flex flex-column justify-content-around align-items-center">
+		<header>
+			<h1 class="p-3 fs-1  text-center fw-bold font-monospace text-uppercase">La fantástica calculadora
+				del G3 🎊</h1>
+		</header>
+
+		<main class="row container text-center calculatorbody">
+			<div class="row text-box">
+				<div class="col d-flex justify-content-center">
+					<input type="text" class="form-control" pattern="[0-9/*+\-\d]+" style="height:4rem"
+						id="resultado" />
+				</div>
+
+			</div>
+			<div class="buttons justify-content-around">
+
+				<div class="row mt-4 d-flex align-items-center">
+
+					<div class="col">
+						<tton id="bopem" class="btn btn-dark p-4">(</button>
+					</div>
+					<div class="col">
+						<tton id="bclose" class="btn btn-dark p-4">)</button>
+					</div>
+					<div class="col">
+						<button id="broot" class="btn btn-primary p-4">√</button>
+					</div>
+					<div class="col">
+						<button id="bpotencia" class="btn btn-primary p-4">^2</button>
+					</div>
+				</div>
+				<div class="row mt-3 d-flex align-items-center">
+					<div class="col">
+						<button id="b1" class="btn btn-dark p-4">1</button>
+					</div>
+					<div class="col">
+						<button id="b2" class="btn btn-dark p-4">2</button>
+					</div>
+					<div class="col">
+						<button id="b3" class="btn btn-dark p-4">3</button>
+					</div>
+					<div class="col">
+						<button id="bplus" class="btn btn-primary p-4">+</button>
+					</div>
+				</div>
+				<div class="row mt-3 d-flex align-items-center">
+					<div class="col">
+						<button id="b4" class="btn btn-dark p-4">4</button>
+					</div>
+					<div class="col">
+						<button id="b5" class="btn btn-dark p-4">5</button>
+					</div>
+					<div class="col">
+						<button id="b6" class="btn btn-dark p-4">6</button>
+					</div>
+					<div class="col">
+						<button id="bminus" class="btn btn-primary p-4">-</button>
+					</div>
+				</div>
+				<div class="row mt-3 d-flex align-items-center">
+					<div class="col">
+						<button id="b7" class="btn btn-dark p-4">7</button>
+					</div>
+					<div class="col">
+						<button id="b8" class="btn btn-dark p-4">8</button>
+					</div>
+					<div class="col">
+						<button id="b9" class="btn btn-dark p-4">9</button>
+					</div>
+					<div class="col">
+						<button id="bmultiply" class="btn btn-primary p-4">*</button>
+					</div>
+				</div>
+				<div class="row mt-3 d-flex align-items-center">
+					<div class="col">
+						<button id="bclean" class="btn btn-secondary p-4">C</button>
+					</div>
+					<div class="col">
+						<button id="b0" class="btn btn-dark p-4">0</button>
+					</div>
+					<div class="col">
+						<button id="bequal" class="btn btn-secondary p-4">=</button>
+					</div>
+					<div class="col">
+						<button id="bdiv" class="btn btn-primary p-4">/</button>
+					</div>
+
+				</div>
+			</div>
+
+		</main>
+
+	</div>
+	<script src="./js/funciones.js">JS</script>
+
+	<footer class="pie text-center bg-secondary bg-opacity-25 col-12">
+		<strong>Cristian Contreras, Luis Reyes, Miriam Pulgar</strong>
+		<br> <em>Todos los derechos reservados 2023</em> ©
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

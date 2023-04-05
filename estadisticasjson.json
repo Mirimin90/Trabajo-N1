@@ -1,0 +1,99 @@
+[
+    {
+        "nombre": "Miriam",
+        "apellido": "Pulgar",
+        "run": "19987765-5",
+        "nacionalidad": "Chilena",
+        "monto": "100.000",
+        "cantidad": "12"
+    },
+    {
+        "nombre": "Luis",
+        "apellido": "Reyes",
+        "run": "12849874-5",
+        "nacionalidad": "Chilena",
+        "monto": "1200000",
+        "cantidad": "1"
+    },
+    {
+        "nombre": "Cristian",
+        "apellido": "Contreras",
+        "run": "18766987-4",
+        "nacionalidad": "Chilena",
+        "monto": "1333333",
+        "cantidad": "124"
+    },
+    {
+        "nombre": "Carola",
+        "apellido": "Ugarte",
+        "run": "20333666-5",
+        "nacionalidad": "Venezolana",
+        "monto": "1666666666",
+        "cantidad": "12678"
+    },
+    {
+        "nombre": "Daniel",
+        "apellido": "Lopéz",
+        "run": "11358248-5",
+        "nacionalidad": "Chilena",
+        "monto": "120.000",
+        "cantidad": "17"
+    },
+    {
+        "nombre": "Javiera",
+        "apellido": "Perez",
+        "run": "19569872-2",
+        "nacionalidad": "Chilena",
+        "monto": "10.000",
+        "cantidad": "1"
+    },
+    {
+        "nombre": "Marijane",
+        "apellido": "Cordova",
+        "run": "23589547-5",
+        "nacionalidad": "Colombiana",
+        "monto": "35.520",
+        "cantidad": "2"
+    },
+    {
+        "nombre": "Louis",
+        "apellido": "Duboix",
+        "run": "26858745-6",
+        "nacionalidad": "Haitiana",
+        "monto": "100.000",
+        "cantidad": "12"
+    },
+    {
+        "nombre": "Jaime",
+        "apellido": "Castro",
+        "run": "21598757-6",
+        "nacionalidad": "Venezolana",
+        "monto": "355.000",
+        "cantidad": "7"
+    },
+    {
+        "nombre": "Pablo",
+        "apellido": "Polanco",
+        "run": "18987428-6",
+        "nacionalidad": "Chilena",
+        "monto": "521.010",
+        "cantidad": "22"
+    },
+    {
+        "nombre": "Catalina",
+        "apellido": "Arevalo",
+        "run": "14879531-2",
+        "nacionalidad": "Chilena",
+        "monto": "816.480",
+        "cantidad": "7"
+    },
+    {
+        "nombre": "Brian",
+        "apellido": "Guzman",
+        "run": "13641381-5",
+        "nacionalidad": "Chilena",
+        "monto": "1.500.000",
+        "cantidad": "18"
+    }
+
+]
