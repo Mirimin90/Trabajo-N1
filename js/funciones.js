@@ -11,9 +11,12 @@ for (let i = 0; i < botonesNum.length; i++) {
     element.addEventListener('click', function () { putNumber(element.innerText) });
 }
 
- /*tresultado.addEventListener("keydown", function (event) {
-    event.preventDefault()
-})*/
+ tresultado.addEventListener("keydown", function (event) {
+    if(event.keyCode >= 65 && event.keyCode <= 90) {
+       event.preventDefault()
+    }
+   
+})
 
 
 function putNumber(valor) {
