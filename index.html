@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Te Lo Vendo</title>
-    <!--  <link rel="stylesheet" href="./style.css">
-comentarios -->
+ 
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
     <link rel="stylesheet" href="./otrocss.css" />
-    <script src="https://kit.fontawesome.com/81a2ed02b0.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="container bg-secondary bg-opacity-25">
@@ -19,92 +21,136 @@ comentarios -->
     <header class="container">
         <h1 class="title-main">TE LO VENDO</h1>
 
-        <nav class="navbar bg-secondary bg-opacity-10 p-2 border border-black border-opacity-50 rounded-end">
-            <img class="rounded float-start" id="logonav" src="./imagenes/58efd105dde440b797ec892fc7bfbcd4.png" alt="Logotlv">
+                    <nav class="navbar bg-secondary bg-opacity-10 p-2 border border-black border-opacity-50 rounded-end">
+                <img class="rounded float-start" id="logonav" src="./imagenes/58efd105dde440b797ec892fc7bfbcd4.png"
+                    alt="Logotlv">
 
-            <ul class="nav nav-underline">
-                <li class="nav-item">
-                    <a class="nav-link active link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover "
-                        aria-current="page" href="./index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                        href="./calculadora.html">Saca la cuenta!</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                        href="./contacto.html">Contacto</a>
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link active link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover "
+                            aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                            href="./calculadora.html">Saca la cuenta!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                            href="./contacto.html">Contacto</a>
 
-                <li class="nav-item">
-                    <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                        href="./estadisticas.html"> Estadísticas</a>
+                    <li class="nav-item">
+                        <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                            href="./estadisticas.html"> Estadísticas</a>
 
-            </ul>
+                </ul>
 
 
-            </div>
         </nav>
     </header>
+
     <main class="container">
-        <br>
-        <hr>
-        <section>
-            <h2>¿Quiénes somos?</h2>
 
-            <p class="articulo">
-                Lo que comenzó como una conversación en una junta de amigos durante un fin de semana
-                se transformó en una idea que rápidamente tomo forma gracias a nuestras ganas de cambiar
-                como se hacen las cosas. aqui hay un edit del Cristian
-                <br>
-            <h2>¿Cuál es nuestro enfoque?</h2>
+        <section class="card-container d-flex justify-content-around p-4">
+            <div class="row d-flex justify-content-around gap-3">
+                <div class="card text-dark bg-secondary bg-opacity-10 col-lg-5 col-md-10">
+                    <div class="card-body">
+                        <h3 class="card-title"> ¿Quiénes somos?</h3>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Nuestros orígenes</h6>
+                        <p class="card-text">Lo que comenzó como una conversación en una junta de amigos durante un fin
+                            de
+                            semana se transformó en una idea que rápidamente tomo forma gracias a nuestras ganas de
+                            cambiar
+                            como se hacen las cosas.</p>
+                    </div>
+                </div>
 
-            Queremos potenciar la calidad, la experiencia del usuario y el valor del trabajo,
-            por eso desarrollamos un diseño enfocado en las necesidades personales de cada persona
-            inyectando el toque humano de atención personalizada que tanto faltaba.
-            </p>
+                <div class="card text-dark bg-secondary bg-opacity-10 col-lg-5 col-md-10">
+                    <div class="card-body">
+                        <h3 class="card-title"> ¿Cuál es nuestro enfoque?</h3>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Para dónde vamos</h6>
+                        <p class="card-text"> Queremos potenciar la calidad, la experiencia del usuario y el valor del
+                            trabajo,
+                            por eso desarrollamos un diseño enfocado en las necesidades personales de cada persona
+                            inyectando el toque humano de atención personalizada que tanto faltaba.</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <hr>
-        <section class="index-img container">
-            <h1>Galería de imágenes</h>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img class="w-40 img-fluid mx-auto p-2" src="./imagenes/Flor1.jfif" alt="">
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="w-40 img-fluid mx-auto p-2" src="./imagenes/Flor2.jfif" alt="">
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="w-40 img-fluid mx-auto p-2" src="./imagenes/images.jfif" alt="">
-                    </div>
+
+
+
+        <section class="row index-img container d-flex justify-content-evenly g-2">
+
+
+            <div class="p-2"></div>
+            <h1 class="text-center"> Nuestros Productos</h1>
+            </div>
+
+            <div
+                class="col-11 index-img container d-flex g-2 justify-content-center flex-wrap flex-md-fill justify-content-between">
+
+                <div>
+                    <a data-fancybox="gallery" id="notebook" href="./imagenes/Notebook-9-Pen-Side-1.jpg"
+                        data-caption="Cosa fea">
+                        <img class="img-fluid img-thumbnail" src="./imagenes/Notebook-9-Pen-Side-1.jpg" alt="notebook"
+                            style="height: 200px" /></a>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img class="w-40 img-fluid mx-auto p-2" src="./imagenes/Bombon3.jfif" alt="">
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="w-40 img-fluid mx-auto p-2" src="./imagenes/Bombon1.jfif" alt="">
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="w-40 img-fluid mx-auto p-2 " src="./imagenes/Bombon2.jfif" alt="">
-                    </div>
+                <div>
+                    <a data-fancybox="gallery" id="tablet" href="./imagenes/tablet.jpg" data-caption="">
+                        <img class="img-fluid img-thumbnail" src="./imagenes/tablet.jpg" alt="tablet"
+                            style="height: 200px" /></a>
                 </div>
+
+                <div>
+                    <a data-fancybox="gallery" id="camara" href="./imagenes/camara vigilancia.jpg">
+                        <img class="img-fluid img-thumbnail" src="./imagenes/camara vigilancia.jpg" alt="camara" style="height: 
+                        200px" /></a>
                 </div>
+                <div>
+                    <a data-fancybox="gallery" id="espia" href="./imagenes/espia.jpg">
+                        <img class="img-fluid img-thumbnail" src="./imagenes/espia.jpg" alt="camara espia"
+                            style="height: 200px" /></a>
+                </div>
+                <div>
+                    <a data-fancybox="gallery" id="electrodomestico" href="./imagenes/procesador inteligente.jpg"><img
+                            class="img-fluid img-thumbnail" src="./imagenes/procesador inteligente.jpg"
+                            alt="electrodomestico inteligente" style="height: 200px" /></a>
+                </div>
+                <div>
+                    <a data-fancybox="gallery" id="celular" href="./imagenes/celular.jpg">
+                        <img class="img-fluid img-thumbnail" src="./imagenes/celular.jpg" alt="celular"
+                            style="height: 200px" /></a>
+                </div>
+                <div>
+                    <a data-fancybox="gallery" id="celular" href="./imagenes/ps5.jpg">
+                        <img class="img-fluid img-thumbnail" src="./imagenes/ps5.jpg" alt="consola"
+                            style="height: 200px" /></a>
+                </div>
+
+            </div>
         </section>
-        <hr>
-        <br>
+
     </main>
 
-    <footer class="pie text-center bg-secondary bg-opacity-25 col-12">
-        <strong>Cristian Contreras, Luis Reyes, Miriam Pulgar</strong>
-        <br> <em>Todos los derechos reservados 2023</em> ©
-    </footer>
+    <div class=" row p-3">
+        <footer class="text-center bg-secondary bg-opacity-25 col-12">
+            <strong>Cristian Contreras, Luis Reyes, Miriam Pulgar</strong>
+            <br> <em>Todos los derechos reservados 2023</em> ©
+        </footer>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
 
 
-
+    <script src="./js/script.js"></script>
+    <!-- <script src="
+    https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js
+    "></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
 </body>
 
